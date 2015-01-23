@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.museum.model.ExhibitVisit">
+		<field name="exhibitVisitId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="exhibitName" type="String" />
+		<field name="visitorId" type="String" />
+		<field name="proximity" type="String" />
+		<field name="galleryName" type="String" />
+	</model>
+	<model name="com.liferay.museum.model.GalleryVisit">
+		<field name="galleryVisitId" type="long" />
+		<field name="galleryName" type="String" />
+		<field name="visitorId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+</model-hints>

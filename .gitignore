@@ -1,0 +1,9 @@
+.DS_Store
+build.log
+build
+log/
+tmp
+.map
+.settings/
+target/
+Thumbs.db
