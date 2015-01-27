@@ -27,9 +27,11 @@
 
 <style type="text/css">
     #<portlet:namespace />visitorList {
-        position: absolute;
+    	display: inline;
+    	position: relative;
+    	top: -700px;
+        float: right;
         overflow: hidden;
-        top: 60px;
         right: 0px;
         font-weight: bold;
         font-size: 1.2em;
